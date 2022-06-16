@@ -1,6 +1,11 @@
 build/
-.gradle
 
 # IntelliJ Specific
 .idea/
 out/
+
+
+### Gradle ###
+.gradle
+**/build/
+!src/**/build/
